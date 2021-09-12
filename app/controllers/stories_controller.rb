@@ -32,7 +32,7 @@ class StoriesController < ApplicationController
         format.json { render json: @story.errors, status: :unprocessable_entity }
       end
     end
-  end
+    end
 
   # PATCH/PUT /stories/1 or /stories/1.json
   def update
